@@ -1,5 +1,4 @@
 import java.util.*;
-
 class Queue<E>{
 	int size = 0;
 	class Node<T>{
