@@ -16,7 +16,6 @@ class Queue<E>{
 
 	Node<E> head = null;
 	Node<E> tail = null;		
- 	
  	void enqueue(E data){
  		Node<E> newnode = new Node<E>(data);
  		if(size==0){
